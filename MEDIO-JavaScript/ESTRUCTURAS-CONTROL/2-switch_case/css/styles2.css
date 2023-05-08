@@ -1,0 +1,33 @@
+/*
+    Resumiendo selectores de acceso al DocType id, y class, centrondonos en CSS3
+    estos selectores serán un enlace directo al elemento, trasladando toda su naturaleza
+    de desarrollo
+*/
+
+
+#resultado{
+    /*
+        Las medidas son necesarias para refenciar y plasmar realidades plausibles
+        em, rem, px, pto..
+
+        1 em = en tamaño y visualización de área de un 'M' 16px (referencia al padre)
+        1 rem = 16px (referencia al dispositivo)
+    */
+    width: 15.62rem;
+    height: 15rem;
+    position: relative;
+    background-color: #ffa;
+    margin: 30px auto;  /*equivale a margin: 30px auto 30px auto;*/
+    padding: 54px;
+    border-radius: 0 0 0 30px/45px;
+    box-shadow: 
+    inset 0 -40px 40px rgb(0, 0, 0, 0.2),
+    inset 0 -40px 40px rgba(0, 0, 0, 0.2),
+    0 5px 6px 5px rgba(0, 0, 0, 0.2)
+    ;
+    font-family: 'Permanent Marker';
+}
+
+.dosMayo{
+
+}

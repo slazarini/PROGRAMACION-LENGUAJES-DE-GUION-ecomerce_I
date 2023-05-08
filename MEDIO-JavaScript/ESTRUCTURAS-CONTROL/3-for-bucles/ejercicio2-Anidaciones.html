@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Naturaleza de los números: divisibles</title>
+
+    <!--favicon, otra configuracion de carga a traves de un link-->
+    <link rel="shortcut icon" href="icon/brujula.png" type="image/x-icon">
+
+    <!--Confirgurar Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+
+    <!--Configuracion de nuestro archivo de css ⇓-->
+    <link rel="stylesheet" href="css/styles2.css">
+
+</head>
+
+<body>
+    <div class="container centrado">
+        <h2>nº Divisibles entre <code>sí</code> hasta el 20</h2>
+        <p>Analizar cada número en su descomposición comprobar cuales son divisibles por el propio número</p>
+    </div>
+    <script>
+        for (var n = 0; n <= 20; n++) {
+            document.write('<br>Recorro cada número: ' + n + '<br>');
+            document.write('<h4 class="centrado">Es divisible por: ' + n + ' por los divisores ');
+            for (var divisor = 1; divisor <= n; divisor++) {
+                if (n % divisor == 0) {
+                    if (divisor == 1) {
+                        document.write(divisor);
+                    }
+                    else {
+                        document.write(', ' + divisor);
+                    }
+                }
+            }
+            document.write('</h4><br>');
+            document.write('-----------------------<br>')
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,45 @@
+/*
+#reloj {
+    font-family: 'Courier New', Courier, monospace;
+    color: blue;
+    font-weight: 400px;
+}
+
+#calendario {
+    font-family: 'Courier New', Courier, monospace;
+    color: blueviolet;
+    font-weight: 400px;
+}
+*/
+.divBoton {
+    text-align: center;
+}
+
+/*  Desig, entendido como análisis de visualización según dispositivo, para ello
+    utilizaremos una directiva propia de css, con decorador @
+    @media screen {
+        modificaciones de pantalla llamando a la modificacion del selecto
+    }
+    */
+
+@media (min-width:100px) {
+    #reloj {
+        font-size: 8rem;
+        color: blueviolet;
+    }
+
+    #calendario {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width:1380px) {
+    #reloj {
+        font-size: 36px;
+    }
+
+    #calendario {
+        font-size: 16px;
+        color: blueviolet;
+    }
+}
