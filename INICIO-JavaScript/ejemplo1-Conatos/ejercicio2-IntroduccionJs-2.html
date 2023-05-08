@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introducción-Mensajes escritos y visuales</title>
+    <!-- Configuraciones -->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <link rel="stylesheet" href="css/styles2.css">
+</head>
+
+<body class="MariaDeLasMercedes">
+    <script>
+        /*
+        *   console.log()
+        *   Es otra manera de ofrecer información y contenido desde otro entorno
+        *   de no visualización al usuario.
+        *   Será mostrado en la consola del Cliente, recibiendo argumentos, objetos,
+        *   caracteres, números, ....
+        *   ej:
+        */
+       console.log('Sigo aqui..');
+        /*
+        *   Utilidades:
+        *   - Evaluar variables
+        *   - Control de errores
+        *   - etc
+        */
+
+
+
+        /*
+        *   Concatenación
+        *   Hay que diferenciarla de su herencia conotativo del símbolo +
+        *   Ej:
+        */
+        console.log('Sigo aqui..' + (3+5) );
+        /*
+        *   Primer + es una concatenación, se da cuando alguno de los argumentos no es un número.
+        *   El segundo + es una adición, suma numérica, al ser ambos argumentos números.
+        */
+
+
+        /*
+        *   document.write()
+        *   Muestra los caracteres y argumentos sobre el html
+        *   Utilidades:
+        *   - Mostrar el contenido, información, etc.
+        *   Ej:
+        */
+       document.write('<h2>Perdonad, pero aun sigo aquí</h2>');
+
+       /*
+       *    alert, para mejorar la estética y poder utilizar la potencialidad del alert, usamos
+       *    determinados frameWorks, como:
+       *    SweetAlert(https://sweetalert.js.org/guides/)
+       */
+      swal(
+        {
+            title: "Mi primer Script DECENTE!",
+            text: "Presiona para Agradecermelo!",
+            icon: "success",
+            button: "Gracias, que ilusión!"
+        }
+      );
+
+    </script>
+</body>
+
+</html>

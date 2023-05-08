@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN</title>
+
+    <!--favicon, otra configuracion de carga a traves de un link-->
+    <link rel="shortcut icon" href="icon/brujula.png" type="image/x-icon">
+
+    <!-- Configuracion de Scripts propios -->
+    <script src="js/script-Login.js" type="text/JavaScript" language="JavaScript"></script>
+
+</head>
+
+<body>
+    <main>
+        <div class="container">
+            <p>Introduce tus datos:</p>
+
+            <form action="" method="get" style="text-align: center; width: 24rem; margin: 0 auto;">
+                <div class="form-floating mb-3">
+                    <label for="floatingInput" style="width: 30px;text-align: right;">Email: </label>
+                    <input type="email" class="form-control" id="correo" placeholder="su@email.com">
+                </div>
+                <div class="form-floating">
+                    <label for="floatingPassword" style="width: 30px;text-align: right;">Contaseña: </label>
+                    <input type="password" class="form-control" id="password" placeholder="Contaseña">
+                </div>
+                <br>
+                <input type="button" onclick="autorizacion()" class="btn btn-secondary" value="Acceder" />
+                <!-- input etiqueta de apertura y cierre en si misma, esta etiqueta marca un lugar de encuentro 
+                    entre las variables y sus distintos entornos -->
+                <div id="resultado"></div>
+            </form>
+
+        </div>
+        <br>
+        <div class="container botonVolver" style="text-align: center;">
+            <a
+                href="Y:\Paro\Cursos\20_1072 IFCT01PO PROGRAMACIÓN CON VISUL BASIC ASP.NET 3.5 EN COMERCIO ELECTRÓNICO\PROGRAMACION-LENGUAJES+ecommerce\INICIO-JavaScript\PRACTICAS\index3-VentaCurso.html">
+                Volver
+            </a>
+        </div>
+    </main>
+</body>
+
+</html>

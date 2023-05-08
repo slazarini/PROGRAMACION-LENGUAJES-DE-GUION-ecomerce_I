@@ -1,0 +1,45 @@
+header {
+    background-color: #00380b88;
+    color: gold;
+    text-align: center;
+    height: 80px;
+    border: 2px solid black;
+}
+
+body {
+    background-color: #e4ffdf;
+}
+
+main {
+    text-align: center;
+}
+
+.carrito {
+    margin-top: 10px;
+    text-align: right;
+    background-color: #e5e5e5;
+    border: 2px solid black;
+    width: auto;
+}
+
+.tarjetaProducto {
+    text-align: center;
+    width: auto;
+    margin-top: 10px;
+    padding: 5px;
+    background-color: #ffffff;
+    border: 2px solid black;
+}
+
+.bloqueImagen {
+    text-align: center;
+}
+
+.imagenProducto {
+    max-width: 200px;
+    max-height: 400px;
+}
+
+.botonComprar {
+    margin: 5px;
+}

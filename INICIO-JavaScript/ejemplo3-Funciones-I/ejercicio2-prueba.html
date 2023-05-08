@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora básica</title>
+
+    <!-- Configuracion de Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+
+    <!-- Configuracion de SweetAlert -->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+    <!-- Configuracion de Scripts propios -->
+    <script src="js/script2.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <h2>Aplicacion de calculadora básica: <code> </code></h2>
+        <ul>
+            <li>Entrando dos números</li>
+            <li>Calcule, y muestre en cada botón</li>
+            <li>independiente de la calculadora</li>
+        </ul>
+        <div style="text-align: center;width: 380px; margin: 0 auto; margin-top: 32px;"> <!-- Encapsulamiento movil -->
+            <button onclick="suma()" type=button> + </button>
+            <button onclick="resta()" type=button> - </button>
+            <button onclick="multiplicacion()" type=button> x </button>
+            <button onclick="division()" type=button> / </button>
+            <br>
+            <img style="width: 190px;margin-top: 32px;" src="images/calculator.png" alt="">
+        </div>
+
+    </div>
+</body>
+
+</html>

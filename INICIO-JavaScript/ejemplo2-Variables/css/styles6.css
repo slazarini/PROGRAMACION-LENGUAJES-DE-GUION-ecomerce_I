@@ -1,0 +1,15 @@
+body {
+    background-color: lightblue;
+  }
+
+h3 {
+    color: rgb(215, 47, 13);
+    font-weight: bold;
+    text-align: left;
+}
+
+h4 {
+    color: rgb(11, 135, 6);
+    font-weight: bold;
+    text-align: left;
+}

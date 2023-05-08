@@ -1,0 +1,22 @@
+h2 {
+    text-align: center;
+}
+
+.recuadroLogin {
+    text-align: center;
+    margin: 0 auto;
+    width: 26rem;
+    background-color: #c1eff4;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+/*  
+    El selector asociado en html como in id
+*/
+#resultado {
+    font-size: larger;
+    color: brown;
+    font-weight: bold;
+}
+

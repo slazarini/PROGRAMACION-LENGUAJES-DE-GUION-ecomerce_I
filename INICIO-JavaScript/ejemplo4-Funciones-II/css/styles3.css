@@ -1,0 +1,26 @@
+header {
+    background-color: #00380b88;
+    color: gold;
+    text-align: center;
+    height: 80px;
+    border: 2px solid black;
+}
+
+body {
+    background-color: #e4ffdf;
+}
+
+.boton {
+    text-align: center;
+    margin: 5px;
+}
+
+footer {
+    width: 100%;
+    background-color: #001125;
+    text-align: center;
+    color: azure;
+    position: fixed;
+    bottom: 0px;
+    height: 80px;
+}
